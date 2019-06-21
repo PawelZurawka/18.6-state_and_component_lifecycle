@@ -27,7 +27,7 @@ var Counter = React.createClass({
   },
 
   getDefaultProps: function() {
-    console.log('Wstawianie domyślnych wartości propsów');
+    console.log('Ustawianie domyślnych wartości propsów');
   },
 
   /*getInitialState: function() {
@@ -43,7 +43,7 @@ var Counter = React.createClass({
   },*/
 
   componentDidMount: function () {
-    console.log('Po wyrenderowaniu umożliwia dalsze operacje na utworzonym komponencie');
+    console.log('Po wyrenderowaniu umożliwia dalsze operacje na utworzonym elemencie');
   },
 
   componentWillReceiveProps: function () {
@@ -60,7 +60,7 @@ var Counter = React.createClass({
   },
 
   componentDidUpdate: function () {
-    console.log('Jak w componentDidMount umożliwia dalsze operacje na komponencie');
+    console.log('Jak w componentDidMount umożliwia dalsze operacje na elemencie');
   },
 
   componentWillUnmount: function () {
