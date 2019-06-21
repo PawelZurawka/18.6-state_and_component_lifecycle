@@ -43,7 +43,7 @@ var Counter = React.createClass({
   },*/
 
   componentDidMount: function () {
-    console.log('Po wyrenderowaniu umożliwia dalsze operacje na utworzonym elemencie');
+    console.log('Po wyrenderowaniu umożliwia dalsze operacje na utworzonym komponencie');
   },
 
   componentWillReceiveProps: function () {
@@ -60,7 +60,7 @@ var Counter = React.createClass({
   },
 
   componentDidUpdate: function () {
-    console.log('Jak w componentDidMount umożliwia dalsze operacje na elemencie');
+    console.log('Jak w componentDidMount umożliwia dalsze operacje na komponencie');
   },
 
   componentWillUnmount: function () {
